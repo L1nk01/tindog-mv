@@ -125,9 +125,9 @@ h3 {
 /* Press Section */
 
 #press {
-    background-color: #ef8172;
+    background-color: #fff;
     text-align: center;
-    padding-bottom: 3%;
+    padding-top: 12%;
 }
 
 .press-logo {
@@ -165,7 +165,7 @@ h3 {
 
 #footer {
     text-align: center;
-    padding: 5.5% 20% 5%
+    padding: 1.5% 20% 1%
 }
 
 .footer-icon {
@@ -183,18 +183,17 @@ a:hover {
 
 @media (max-width: 990px) {
 
+    #cta {
+        padding: 3% 10%
+    }
+
     #title {
         text-align: center;
     }
 
     #footer {
         font-size: 1.2rem;
-    }
-    .title-image {
-        position: static;
-        transform: rotate(0);
-        width: 70%;
-        margin: 5% 0% 5% 0%;
+        padding: 6% 20% 5%
     }
 
     #features {
@@ -205,22 +204,66 @@ a:hover {
       font-size: 6rem;  
     }
 
+    h2 {
+        font-size: 4.5rem;
+        margin-bottom: 0px;
+    }
+
     h3 {
         font-size: 3rem;
     }
 
-    .p1 {
-        font-size: 2rem;
-        margin: 0px;
+    p {
+        font-size: 2.25rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
     }
+
+    em {
+        font-size: 2rem;
+    }
+
     .download-button {
         border-radius: 1rem;
         font-size: 2.5rem;
         padding: 12px 22px;
     }
 
+    .download-button2 {
+        border-radius: 1rem;
+        font-size: 2.5rem;
+        padding: 12px 22px;
+    }
+
+    .fa-4x {
+        font-size: 6rem !important;
+    }
+
+    .fa-2x {
+        font-size: 4rem !important;
+    }
+
+    .signup-button {
+        font-size: 2rem;
+    }
+
+    .social-icon {
+        margin: 1% 2%;
+    }
+
     .title-container {
         padding: 6% 7%;
+    }
+
+    .testimonial-image {
+        width: 8rem;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 70%;
+        margin: 6% 0% 5% 0%;
     }
 
     .navbar-size{
@@ -234,13 +277,20 @@ a:hover {
     
     .nav-link {
         font-size: 2.5rem;
+        color: #fff;
     }
 
     .pricing-column {
-        padding: 3% 10%;
+        padding: 3% 12%;
     }
-    
-    .fa-4x {
-        font-size: 6rem !important;
+
+    .p1 {
+        font-size: 2rem;
+        margin: 0px;
+    }
+
+    .press-logo {
+        margin: 70px 50px;
+        width: 20rem;
     }
 }
